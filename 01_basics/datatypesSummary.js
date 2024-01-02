@@ -33,6 +33,30 @@ const myFunction= function(){
     console.log("Hello World");
 }
 
-console.log(typeof heroes );
+console.log(typeof myFunction);
 
 //11.4.4 Types of Operators ~ https://ecma-international.org/wp-content/uploads/ECMA-262_5th_edition_december_2009.pdf
+
+
+/*       
+* Premitive Datatypes
+
+                  Type                                   typeof
+
+i)             Number                               number
+ii)            String                                   string
+iii)           Boolean                               boolean
+iv)           Bigint                                   bigint
+v)            Symbol                                symbol
+vi)           Null                                      object
+vii)          Undefined                           undefined
+
+
+* Non-Premitive OR Referance OR Object datatype
+
+                  Type                                   typeof
+
+i)               Object                                object
+ii)              Array                                  object
+iii)             Function                            function(object)
+*/
