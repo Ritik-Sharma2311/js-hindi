@@ -60,3 +60,28 @@ i)               Object                                object
 ii)              Array                                  object
 iii)             Function                            function(object)
 */
+
+
+
+/* ++++++++++++++++++++++++++++++++Memory in JS +++++++++++++++++++++++++++++++++++ */
+
+// STACK HEAP(PRIMITIVE) , HEAP MEMORY (NON-PRIMITIVE)
+
+let myYoutubename = "hiteshchoudhary.com"
+let anothername = myYoutubename  
+anothername = "chaiaurcode"
+
+console.log(myYoutubename );
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "ritik@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
