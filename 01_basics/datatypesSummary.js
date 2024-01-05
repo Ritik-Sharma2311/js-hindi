@@ -52,7 +52,7 @@ vi)           Null                                      object
 vii)          Undefined                           undefined
 
 
-* Non-Premitive OR Referance OR Object datatype
+* Non-Premitive OR Reference OR Object datatype
 
                   Type                                   typeof
 
