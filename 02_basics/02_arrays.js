@@ -10,7 +10,8 @@ const dc_heroes = ["superman", "batman", "flash"]
 // const all_heroes = marvel_heroes.concat(dc_heroes)   //concat operator
 // console.log(all_heroes);
 
-const all_heroes = [...marvel_heroes, ...dc_heroes]   //spread operator
+const all_heroes = [...marvel_heroes, ...dc_heroes]   //spread operator ~ for combining two or more arrays
+
 console.log(all_heroes);  
 
 
