@@ -33,11 +33,24 @@ map.set("IN", "India")// Now this value will not be considered in the o/p
 
 console.log(map);
 
-for (const key of map) {
+for (const [key, value] of map) {
 
-    console.log(key);
+    console.log(key, "-", value);
 }
 
 
+//Iterations on Objects  
 
-//
+// const myObject = {
+//     game1 : 'NFS',
+//     game2 : 'Spiderman'
+
+// }
+
+// for (const [key, value] of myObject) {
+//     console.log(key+ "-" + value);
+    
+// }
+
+// OBJECTS ARE NOT ITERATABLE using FOR-OF LOOP
+
