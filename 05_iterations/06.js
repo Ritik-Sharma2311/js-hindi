@@ -22,3 +22,22 @@ myNums1.forEach( (num) => { if (num > 4) {
 } })
 
 console.log(newNums1);
+
+const books = [
+    {title: 'Book One', genre:'Fiction', publish: 1981, edition: 2004 },
+    {title: 'Book Two', genre:'Non-fiction', publish: 1981, edition: 2004 },
+    {title: 'Book Three', genre:'history', publish: 1981, edition: 2004 },
+    {title: 'Book Four', genre:'history', publish: 1981, edition: 2004 },
+    {title: 'Book Five', genre:'Science', publish: 1981, edition: 2004 },
+    {title: 'Book Six', genre:'history', publish: 1981, edition: 2004 },
+    {title: 'Book Seven', genre:'History', publish: 1981, edition: 2004 },
+    {title: 'Book Eight', genre:'Non-fiction', publish: 1981, edition: 2004 },
+];
+
+const userBooks = Books.filter((bk) => )
+
+console.log( userBooks);
+
+
+
+
