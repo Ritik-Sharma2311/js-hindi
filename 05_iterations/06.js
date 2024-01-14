@@ -26,18 +26,19 @@ console.log(newNums1);
 const books = [
     {title: 'Book One', genre:'Fiction', publish: 1981, edition: 2004 },
     {title: 'Book Two', genre:'Non-fiction', publish: 1981, edition: 2004 },
-    {title: 'Book Three', genre:'history', publish: 1981, edition: 2004 },
+    {title: 'Book Three', genre:'history', publish: 2003, edition: 2004 },
     {title: 'Book Four', genre:'history', publish: 1981, edition: 2004 },
-    {title: 'Book Five', genre:'Science', publish: 1981, edition: 2004 },
+    {title: 'Book Five', genre:'Science', publish: 2002, edition: 2004 },
     {title: 'Book Six', genre:'history', publish: 1981, edition: 2004 },
-    {title: 'Book Seven', genre:'History', publish: 1981, edition: 2004 },
+    {title: 'Book Seven', genre:'Fiction', publish: 1981, edition: 2004 },
     {title: 'Book Eight', genre:'Non-fiction', publish: 1981, edition: 2004 },
 ];
 
-const userBooks = Books.filter((bk) => )
+let userBooks  =  books.filter((bk) => bk.genre === "history")
 
-console.log( userBooks);
+userBooks = books.filter((bk) => bk.publish >= 2000 && bk.genre === "history")
 
+console.log(userBooks);
 
 
 
