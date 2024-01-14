@@ -36,7 +36,7 @@ const books = [
 
 let userBooks  =  books.filter((bk) => bk.genre === "history")
 
-userBooks = books.filter((bk) => bk.publish >= 2000 && bk.genre === "history")
+userBooks = books.filter((bk) => bk.publish >= 2000 && bk.genre === "history") // The filter() method returns a new array with all elements that pass THE TEST defined by the given function.
 
 console.log(userBooks);
 
